@@ -26,7 +26,7 @@ and fill in the info.
 
 It will give you fake "school id" that you are going to upload as a proof back on the developer pack page
 
-Click `process information`, allow the site to use your camera to identify you, and wait.
+Click `Process Information`, allow the site to use your camera to identify you, and wait.
 
 
 PS: You have to enable site to use your location and camera, but you can bypass the identification by simply typing the nearest school in your area,
