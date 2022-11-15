@@ -24,5 +24,7 @@ if __name__ == "__main__":
     date = input("Valid until ( MM/YYYY ): ")
     school = input("School ( near your area ): ")
 
+    main(name, id, date, school)
+
     img = Image.open("assets/out.jpg")
     img.show()
