@@ -19,12 +19,10 @@ def main(*args):
     draw(args[3], 60, 396)
 
 if __name__ == "__main__":
-    # name = input("Full Name: ")
-    # id = input("Random ID ( 6 digits ): ")
-    # date = input("Valid until ( MM/YYYY ): ")
-    # school = input("School ( near your area ): ")
-
-    main("Ajsa Besirovic", "880007", "08/2023", "Bratstvo Elementary School")
+    name = input("Full Name: ")
+    id = input("Random ID ( 6 digits ): ")
+    date = input("Valid until ( MM/YYYY ): ")
+    school = input("School ( near your area ): ")
 
     img = Image.open("assets/out.jpg")
     img.show()
