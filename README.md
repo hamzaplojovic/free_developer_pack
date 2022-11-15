@@ -1,7 +1,6 @@
 # free_developer_pack
-This is how to get Student Developer pack with reverse engineering
 
-### How to use:
+## How to use:
 
 First go to `education.github.com` and sign in to your GitHub account, or create a new GitHub account and then sign in.
 
