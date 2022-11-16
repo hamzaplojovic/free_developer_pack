@@ -7,6 +7,7 @@ except ModuleNotFoundError:
 
 img = Image.open("assets/bg.jpeg")
 
+
 def draw(text: str, x: int, y: int):
     global img
     image_drawed = ImageDraw.Draw(img)
