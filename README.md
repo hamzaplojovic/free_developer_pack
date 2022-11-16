@@ -32,5 +32,3 @@ PS: You have to enable site to use your location and camera, but you can bypass 
 and if you really don't want GitHub to know who you are, just move away from your machine when camera turns on.
 
 Feel free to fork the repository, and improve this software, or you can submit your ideas in the `Issues` tab
-
-:)
