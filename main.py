@@ -7,9 +7,9 @@ img = Image.open("assets/bg.jpeg")
 
 def draw(text:str, x:int, y:int):
     global img
-    draw = ImageDraw.Draw(img)
+    image_drawed = ImageDraw.Draw(img)
     font = ImageFont.truetype("assets/ARIAL.ttf", 100)
-    draw.text((x, y), text=text, fill=0, font=font)
+    image_drawed.text((x, y), text=text, fill=0, font=font)
     img.resize((3060, 1440)).save("assets/out.png")
 
 def main(*args):
