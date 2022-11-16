@@ -1,5 +1,5 @@
 try:
-    from PIL import Image, ImageDraw, ImageFont
+    from PIL import Image, ImageDraw, ImageFont, ImageFilter
 except ModuleNotFoundError:
     raise ModuleNotFoundError("Pillow is not installed. Please install it with 'pip/pip3 install Pillow'")
 
@@ -10,7 +10,7 @@ def draw(text:str, x:int, y:int):
     draw = ImageDraw.Draw(img)
     font = ImageFont.truetype("assets/ARIAL.ttf", 100)
     draw.text((x, y), text=text, fill=0, font=font)
-    img.save("assets/out.jpg")
+    img.resize((3060, 1440)).save("assets/out.png")
 
 def main(*args):
     draw(args[0], 60, 96)
@@ -19,12 +19,14 @@ def main(*args):
     draw(args[3], 60, 396)
 
 if __name__ == "__main__":
-    name = input("Full Name: ")
-    id = input("Random ID ( 6 digits ): ")
-    date = input("Valid until ( MM/YYYY ): ")
-    school = input("School ( near your area ): ")
+    # name = input("Full Name: ")
+    # id = input("Random ID ( 6 digits ): ")
+    # date = input("Valid until ( MM/YYYY ): ")
+    # school = input("School ( near your area ): ")
 
-    main(name, id, date, school)
+    # main(name, id, date, school)
+    main("Hamza Plojovic", "770004", "08/2023", "Bratstvo Elementary School")
 
-    img = Image.open("assets/out.jpg")
+
+    img = Image.open("assets/out.png")
     img.show()
