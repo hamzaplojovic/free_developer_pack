@@ -1,5 +1,5 @@
 try:
-    from PIL import Image, ImageDraw, ImageFont, ImageFilter
+    from PIL import Image, ImageDraw, ImageFont
 except ModuleNotFoundError:
     raise ModuleNotFoundError("Pillow is not installed. Please install it with 'pip/pip3 install Pillow'")
 
