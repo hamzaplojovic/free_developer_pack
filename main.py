@@ -9,7 +9,6 @@ img = Image.open("assets/bg.jpeg")
 
 
 def draw(text: str, x: int, y: int):
-    global img
     image_drawed = ImageDraw.Draw(img)
     font = ImageFont.truetype("assets/ARIAL.ttf", 100)
     image_drawed.text((x, y), text=text, fill=0, font=font)
